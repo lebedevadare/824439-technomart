@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Дарья Баранова](https://up.htmlacademy.ru/htmlcss/23/user/824439).
-* Наставник:[`Вадим Новаш] (https://github.com/stakeout)
+* Наставник:[`Вадим ( тут смайлик) Новаш] (https://github.com/stakeout)
 
 ---
 
