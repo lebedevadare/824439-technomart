@@ -279,5 +279,40 @@
     </p>
   </div>
 </footer>
+<section class="modal modal-review">
+  <h2 class="visually-hidden">Написать письмо в компанию</h2>
+  <form action="#" method="post">
+     <button class="modal-close" type="button">
+          Закрыть
+        </button>
+    <p class="name">
+      <label for="username">Ваше имя:</label><br>
+      <input id="username" type="text" name="name" required="required" placeholder="Имя Фамилия">
+    </p>
+    <p class="form-email">
+      <label for="user-email">Ваш e-mail:</label><br>
+      <input id="user-email" type="email" name="email" placeholder="email@example.com">
+    </p>
+    <p class="review">
+      <label for="user-review">Текст письма:</label><br>
+      <textarea name="commtnts" id="user-review" placeholder="В свободной форме"
+      ></textarea>
+    </p>
+    <div class="send">
+    <button class="button-review" type="submit">Отправить</button>
+    </div>
+  </form>
+</section>
+<section class="modal modal-map">
+        <h2 class="visually-hidden">
+          Как до нас добраться
+        </h2>
+        <p>
+           <img src="img/map.jpg" width="" height="" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
+        </p>
+        <button class="modal-close" type="button">
+          Закрыть
+        </button>
+      </section>
 </body>
 </html>
