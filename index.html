@@ -3,6 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -23,7 +28,8 @@
     <h1 class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
     <h2 class="visually-hidden">Контактная информация</h2>
 
-    <p class="adresse"><a href="tel:+78125550555" class="telephone">+7(812)555-05-55</a>г.Санкт-Петербург,улица Большая
+    <p class="adresse"><a class="telephone-header" href="tel:+78125550555">+7(812)555-05-55</a>г.Санкт-Петербург,улица
+      Большая
       Конюшенная,д.19/8</p>
     <ul class="user-navigation">
       <li class="login-link enter"><a href="#">Вход</a></li>
@@ -76,6 +82,7 @@
     </ul>
   </section>
   <h2 class="popular-product"><a href="#">Популярные товары</a></h2>
+  <!-- кнопка-->
   <h2 class="visually-hidden">Список перфораторов</h2>
   <ul class="catalog-list">
     <li class="catalog-item">
@@ -129,7 +136,6 @@
 
         <a class="product" href="item.html">Перфоратор BOSCH BFG 6000</a>
       </h3>
-      </h3>
       <p class="catalog-item-price">
         <b>30500P.</b>
         <a class="button price " href="#">22500P.</a>
@@ -139,7 +145,6 @@
         <a class="button-bookmark" href="#">В закладки</a>
       </p>
     </li>
-  </ul>
   <li class="catalog-item">
     <p class="catalog-item-image">
       <a href="item.html">
@@ -159,7 +164,7 @@
       <a class="button-bookmark" href="#">В закладки</a>
     </p>
   </li>
-
+  </ul>
   <section class="popular">
     <h2 class="manufacturers"><a href="#"> Популярные производители</a></h2>
     <ul class="popular-list">
@@ -182,7 +187,7 @@
   </section>
   <section class="services">
     <h3 class="service">Сервисы</h3>
-    <p>Хороший интернет- магазин отличается от плохого не только ценами
+    <p class="description">Хороший интернет- магазин отличается от плохого не только ценами
       Мы стараемся изо всех сил,чтобы сделать ваши покупки приятными
     </p>
     <ul class="nav-bottom">
@@ -191,7 +196,7 @@
       <li><a href="#">Кредит</a></li>
     </ul>
     <h3 class="bring">Доставка</h3>
-    <p>Мы с удовольствием доставим ваш товар прямо<br>
+    <p class="description-bring">Мы с удовольствием доставим ваш товар прямо<br>
       к Вашему подъезду совершенно бесплатно!
       Ведь мы неплохо заработаем<br>
       поднимая его на ваш этаж
@@ -204,7 +209,7 @@
       <p class="shopping">Настоящий мужской шопинг начинается здесь!Огромный выбор товаров для ремонта и
         строительсьва не оставит равнодушным любителей сэкономить на гастарбайтарах.
       </p>
-      <p class="opportunities">Мы можем доставить Ваш товар в самые отдаленные точки России!
+      <p class="transport-companies">Мы можем доставить Ваш товар в самые отдаленные точки России!
         Техномарт работает со многими транспортными компаниями:
       </p>
 
@@ -213,7 +218,7 @@
         <li>Автотрейдинг</li>
         <li>ЖерДорЭкспедиция</li>
       </ul>
-      <!--здесь кнопка-->
+      <a class="details"href="#">Подробнее о компании</a>
 
     </section>
     <section class="contacts">
@@ -221,12 +226,13 @@
       <p>Вы можете забрать товар сами,
         заехав в наш офис:
       </p>
-      <img src="img/map.jpg" width="" height="" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
-      <!--здесь кнопка-->
+      <img src="img/map.jpg" width="300" height="158" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
+      <a class=got-lost"" href="#">Заблудились?напишите нам</a>
     </section>
   </section>
 </main>
 <footer class="main-footer">
+  <div class="footer-blue">
   <div class="footer-top">
     <a class="main-footer-logo">
       <img src="img/index-logo-footer.png" width="220" height="68" alt="Логотип магазина «Техномарт»">
@@ -243,7 +249,7 @@
     <p class="footer-adresse">
       г.Санкт-Петербург,улица Б.Конюшенная,д.19/8
     </p>
-    <a href="tel:+78125550555" class="telephone">+7(812)555-05-55</a>
+    <a href="tel:+78125550555" class="telephone-footer">+7(812)555-05-55</a>
 
     <ul class="footer-nav-offers">
       <li><a href="#">Материалы</a></li>
@@ -252,6 +258,8 @@
       <li><a href="#">Спецпредложение</a></li>
     </ul>
   </div>
+</div>
+  <div class="navy-blue">
   <div class="footer-bottom">
     <p class="copyrights">
       2010-2017 Компания "Техномарт"
@@ -278,13 +286,14 @@
          aria-label="Интерактивные курсы на htmlacademy">htmlacademy.ru</a>
     </p>
   </div>
+    </div>
 </footer>
 <section class="modal modal-review">
   <h2 class="visually-hidden">Написать письмо в компанию</h2>
   <form action="#" method="post">
-     <button class="modal-close" type="button">
-          Закрыть
-        </button>
+    <button class="modal-close" type="button">
+      Закрыть
+    </button>
     <p class="name">
       <label for="username">Ваше имя:</label><br>
       <input id="username" type="text" name="name" required="required" placeholder="Имя Фамилия">
@@ -299,20 +308,20 @@
       ></textarea>
     </p>
     <div class="send">
-    <button class="button-review" type="submit">Отправить</button>
+      <button class="button-review" type="submit">Отправить</button>
     </div>
   </form>
 </section>
 <section class="modal modal-map">
-        <h2 class="visually-hidden">
-          Как до нас добраться
-        </h2>
-        <p>
-           <img src="img/map.jpg" width="" height="" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
-        </p>
-        <button class="modal-close" type="button">
-          Закрыть
-        </button>
-      </section>
+  <h2 class="visually-hidden">
+    Как до нас добраться
+  </h2>
+  <p>
+    <img src="img/map.jpg" width="" height="" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
+  </p>
+  <button class="modal-close" type="button">
+    Закрыть
+  </button>
+</section>
 </body>
 </html>

@@ -1,0 +1,176 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Cuprum', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+
+  background-color: #ffffff;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation, .find, .action-elements, .make-an-order {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.site-navigation, .sentence-list, .catalog-list, .popular-list, .nav-bottom, .list-of-companies, .user-navigation, .list-of-companies, .footer-nav, .footer-nav-offers, .socials {
+  list-style: none;
+}
+
+.main-navigation a {
+  color: #ffffff;
+}
+
+
+.headline {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.telephone-header {
+  color: #ee3643;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.catalog-list a {
+  color: #000000;
+}
+
+.footer-blue {
+  background-color: #32425c;
+}
+
+.navy-blue {
+  background-color: #293449;
+}
+
+.action-elements:hover {
+  background-color: #212a3a;
+}
+
+.make-an-order:hover {
+  background-color: #5fbb2d;
+}
+
+.action-elements {
+  color: #ffffff;
+}
+
+.make-an-order {
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.main-navigation a:hover {
+  background-color: #293449;
+}
+
+.make-an-order:visited {
+  background-color: #518534;
+}
+
+.action-elements:visited {
+  background-color: #161d29;
+  color: #949aa4;
+}
+
+.enter a:hover {
+  color: #ee3643;
+  background-color: #ffffff;
+}
+
+.register a:hover {
+  color: #ee3643;
+  background-color: #ffffff;
+}
+
+.enter a:visited {
+  background-color: #ffffff;
+  color: #c5c5c5;
+}
+
+.register a:visited {
+  background-color: #ffffff;
+  color: #c5c5c5;
+}
+
+.main-header {
+  background-color: #f3f7f9;
+}
+
+.product a {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.manufacturers, .popular-product, .company, .connections, .information {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.service, .bring {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.services {
+  background-color: #f5f8fa;
+}
+
+.description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.description-bring, .shopping, .transport-companies, .perforator-information {
+  font-family: "PT Sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.main-footer {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+
+.footer-nav a {
+  color: #ffffff;
+}
+
+.footer-nav-offers a {
+  color: #ffd180;
+}
+
+.telephone-footer {
+  color: #ffffff;
+}
+
+.mail, .href {
+  color: #ffd180;
+}
+
+
