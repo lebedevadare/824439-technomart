@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
 
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum',Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
@@ -120,7 +120,7 @@ a {
 }
 
 .product a {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans",Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
 }

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&amp;subset=cyrillic" rel="stylesheet">
-  <link href="css/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans+Caption:400,700&amp;subset=cyrillic"
+        rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" type="text/css" rel="stylesheet">
 
 </head>
@@ -16,9 +16,9 @@
     <a class="logo">
       <img src="img/index-logo.png" width="220" height="47" alt="Логотип магазина «Техномарт»">
     </a>
-    <form class="find" action="#" method="get">
+    <form class="search" action="https:echo.htmlacademy.ru" method="get">
+      <input type="text" name="search">
       <button type="submit">Искать:</button>
-      <input type="search" name="search" size="40" maxlength="20" autofocus/>
     </form>
     <a class="action-elements" href="/bookmark.html"> Закладки </a>
     <a class="action-elements" href="/basket.html"> Корзина </a>
@@ -28,7 +28,7 @@
     <h1 class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
     <h2 class="visually-hidden">Контактная информация</h2>
 
-    <p class="adresse"><a class="telephone-header" href="tel:+78125550555">+7(812)555-05-55</a>г.Санкт-Петербург,улица
+    <p class="address"><a class="telephone-header" href="tel:+78125550555">+7(812)555-05-55</a>г.Санкт-Петербург,улица
       Большая
       Конюшенная,д.19/8</p>
     <ul class="user-navigation">
@@ -48,7 +48,7 @@
     </ul>
   </nav>
 </header>
-<main class="container">
+<main class="main-content">
   <section class="sentence">
     <h2 class="visually-hidden">Предложения</h2>
     <ul class="sentence-list">
@@ -74,13 +74,14 @@
       </li>
       <li>
 
-        <section class="men">
+        <section class="slider">
           <img src="img/men.jpg" width="620" height="266" alt="Mужчина с дрелью">
           <!--кнопка-->
         </section>
       </li>
     </ul>
   </section>
+  <section class="popular-goods">
   <h2 class="popular-product"><a href="#">Популярные товары</a></h2>
   <!-- кнопка-->
   <h2 class="visually-hidden">Список перфораторов</h2>
@@ -145,27 +146,28 @@
         <a class="button-bookmark" href="#">В закладки</a>
       </p>
     </li>
-  <li class="catalog-item">
-    <p class="catalog-item-image">
-      <a href="item.html">
-        <img src="img/product-4.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000 »">
-      </a>
-    </p>
+    <li class="catalog-item">
+      <p class="catalog-item-image">
+        <a href="item.html">
+          <img src="img/product-4.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000 »">
+        </a>
+      </p>
 
-    <h3>
+      <h3>
 
-      <a class="product" href="item.html">Перфоратор BOSCH BFG 2000</a>
-    </h3>
-    <p class="catalog-item-price">
-      <a class="button price " href="#">12500P.</a>
-    </p>
-    <p class="catalog-item-buy">
-      <a class="button-buy" href="#">Купить</a>
-      <a class="button-bookmark" href="#">В закладки</a>
-    </p>
-  </li>
+        <a class="product" href="item.html">Перфоратор BOSCH BFG 2000</a>
+      </h3>
+      <p class="catalog-item-price">
+        <a class="button price " href="#">12500P.</a>
+      </p>
+      <p class="catalog-item-buy">
+        <a class="button-buy" href="#">Купить</a>
+        <a class="button-bookmark" href="#">В закладки</a>
+      </p>
+    </li>
   </ul>
-  <section class="popular">
+</section>
+  <section class="popular-manufacturers">
     <h2 class="manufacturers"><a href="#"> Популярные производители</a></h2>
     <ul class="popular-list">
       <li><a href="https://www.bosch.ru/"><img src="img/bosch.png" width="126" height="37"
@@ -186,11 +188,12 @@
     </ul>
   </section>
   <section class="services">
+    <h2 class="visually-hidden">Cервисы компании</h2>
     <h3 class="service">Сервисы</h3>
     <p class="description">Хороший интернет- магазин отличается от плохого не только ценами
       Мы стараемся изо всех сил,чтобы сделать ваши покупки приятными
     </p>
-    <ul class="nav-bottom">
+    <ul class="services-tabs">
       <li><a href="#">Доставка</a></li>
       <li><a href="#">Гарантия</a></li>
       <li><a href="#">Кредит</a></li>
@@ -201,9 +204,8 @@
       Ведь мы неплохо заработаем<br>
       поднимая его на ваш этаж
     </p>
-
   </section>
-  <section class="tehnomart-company">
+  <section class="company">
     <section class="about-company">
       <h2 class="company">Компания "Техномарт"</h2>
       <p class="shopping">Настоящий мужской шопинг начинается здесь!Огромный выбор товаров для ремонта и
@@ -218,7 +220,7 @@
         <li>Автотрейдинг</li>
         <li>ЖерДорЭкспедиция</li>
       </ul>
-      <a class="details"href="#">Подробнее о компании</a>
+      <a class="details" href="#">Подробнее о компании</a>
 
     </section>
     <section class="contacts">
@@ -227,101 +229,98 @@
         заехав в наш офис:
       </p>
       <img src="img/map.jpg" width="300" height="158" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
-      <a class=got-lost"" href="#">Заблудились?напишите нам</a>
+      <a class="got-lost" href="#">Заблудились?Напишите нам</a>
     </section>
   </section>
 </main>
 <footer class="main-footer">
   <div class="footer-blue">
-  <div class="footer-top">
-    <a class="main-footer-logo">
-      <img src="img/index-logo-footer.png" width="220" height="68" alt="Логотип магазина «Техномарт»">
-    </a>
-    <ul class="footer-nav">
-      <li><a href="#">Компания</a></li>
-      <li><a href="#">Новости</a></li>
-      <li><a href="#">Каталог</a></li>
-      <li><a href="#">Доставка</a></li>
-      <li><a href="#">Контакты</a></li>
-    </ul>
-  </div>
-  <div class="footer-mid">
-    <p class="footer-adresse">
-      г.Санкт-Петербург,улица Б.Конюшенная,д.19/8
-    </p>
-    <a href="tel:+78125550555" class="telephone-footer">+7(812)555-05-55</a>
-
-    <ul class="footer-nav-offers">
-      <li><a href="#">Материалы</a></li>
-      <li><a href="#">Техника</a></li>
-      <li><a href="#">Инструмент</a></li>
-      <li><a href="#">Спецпредложение</a></li>
-    </ul>
-  </div>
-</div>
-  <div class="navy-blue">
-  <div class="footer-bottom">
-    <p class="copyrights">
-      2010-2017 Компания "Техномарт"
-      Все права защищены
-    </p>
-
-    <ul class="socials">
-      <li><a class="social-button" href="#" aria-label="Страница Техномарта Вконтакте" target="_blank">Вконтакте</a>
-      </li>
-      <li><a class="social-button" href="#" aria-label="Страница Техномарта на Фейсбуке" target="_blank">Фейсбук</a>
-      </li>
-      <li><a class="social-button" href="#" aria-label="Страница Техномарта в Инстаграмм" target="_blank">Инстаграм</a>
-      </li>
-    </ul>
-
-    <p class="footer-email">
-      <b>Обратная связь</b>
-      <a class="mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-    </p>
-
-    <p class="footer-contact">
-      <b>Разработано:</b>
-      <a class="href" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank"
-         aria-label="Интерактивные курсы на htmlacademy">htmlacademy.ru</a>
-    </p>
-  </div>
+    <div class="footer-top">
+      <a class="main-footer-logo">
+        <img src="img/index-logo-footer.png" width="220" height="68" alt="Логотип магазина «Техномарт»">
+      </a>
+      <ul class="footer-nav">
+        <li><a href="#">Компания</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
     </div>
+    <div class="footer-mid">
+      <p class="footer-adresse">
+        г.Санкт-Петербург,улица Б.Конюшенная,д.19/8
+      </p>
+      <a href="tel:+78125550555" class="telephone-footer">+7(812)555-05-55</a>
+
+      <ul class="footer-nav-offers">
+        <li><a href="#">Материалы</a></li>
+        <li><a href="#">Техника</a></li>
+        <li><a href="#">Инструмент</a></li>
+        <li><a href="#">Спецпредложение</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="navy-blue">
+    <div class="footer-bottom">
+      <p class="copyrights">
+        2010-2017 Компания "Техномарт"
+        Все права защищены
+      </p>
+
+      <ul class="socials">
+        <li><a class="social-button" href="#" aria-label="Страница Техномарта Вконтакте" target="_blank">Вконтакте</a>
+        </li>
+        <li><a class="social-button" href="#" aria-label="Страница Техномарта на Фейсбуке" target="_blank">Фейсбук</a>
+        </li>
+        <li><a class="social-button" href="#" aria-label="Страница Техномарта в Инстаграмм"
+               target="_blank">Инстаграм</a>
+        </li>
+      </ul>
+
+      <p class="footer-email">
+        <b>Обратная связь</b>
+        <a class="mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      </p>
+
+      <p class="footer-contact">
+        <b>Разработано:</b>
+        <a class="href" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank"
+           aria-label="Интерактивные курсы на htmlacademy">htmlacademy.ru</a>
+      </p>
+    </div>
+  </div>
 </footer>
 <section class="modal modal-review">
   <h2 class="visually-hidden">Написать письмо в компанию</h2>
   <form action="#" method="post">
-    <button class="modal-close" type="button">
-      Закрыть
-    </button>
+    <span class="visually-hidden">Закрыть</span>
+
+
     <p class="name">
-      <label for="username">Ваше имя:</label><br>
-      <input id="username" type="text" name="name" required="required" placeholder="Имя Фамилия">
+      <label for="username">Ваше имя:</label>
+      <input id="username" type="text" name="name" required placeholder="Имя Фамилия">
     </p>
-    <p class="form-email">
-      <label for="user-email">Ваш e-mail:</label><br>
+    <p class="email">
+      <label for="user-email">Ваш e-mail:</label>
       <input id="user-email" type="email" name="email" placeholder="email@example.com">
     </p>
     <p class="review">
-      <label for="user-review">Текст письма:</label><br>
+      <label for="user-review">Текст письма:</label>
       <textarea name="commtnts" id="user-review" placeholder="В свободной форме"
       ></textarea>
     </p>
-    <div class="send">
       <button class="button-review" type="submit">Отправить</button>
-    </div>
   </form>
 </section>
 <section class="modal modal-map">
   <h2 class="visually-hidden">
-    Как до нас добраться
+    Наши координаты на карте
   </h2>
   <p>
     <img src="img/map.jpg" width="" height="" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
   </p>
-  <button class="modal-close" type="button">
-    Закрыть
-  </button>
+<span class="visually-hidden">Закрыть</span>
 </section>
 </body>
 </html>
