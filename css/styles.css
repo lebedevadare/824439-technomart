@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
 
-  font-family: 'Cuprum',Arial, sans-serif;
+  font-family: "PT Sans",Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
@@ -18,7 +18,10 @@ body {
   background-color: #ffffff;
 
 }
-
+img{
+  max-width: 100%;
+  height: auto;
+}
 a {
   text-decoration: none;
 }
@@ -31,7 +34,7 @@ a {
   background-color: #293449;
 }
 
-.site-navigation, .sentence-list, .catalog-list, .popular-list, .nav-bottom, .list-of-companies, .user-navigation, .list-of-companies, .footer-nav, .footer-nav-offers, .socials {
+.list {
   list-style: none;
 }
 
@@ -57,11 +60,11 @@ a {
   color: #000000;
 }
 
-.footer-blue {
+.footer-top {
   background-color: #32425c;
 }
 
-.navy-blue {
+.footer-mid {
   background-color: #293449;
 }
 
@@ -86,15 +89,19 @@ a {
   background-color: #293449;
 }
 
-.make-an-order:visited {
-  background-color: #518534;
+.make-an-order:hover {
+  background-color: #5fbb2d;
 }
-
-.action-elements:visited {
-  background-color: #161d29;
-  color: #949aa4;
+.make-an-order:active{
+  background-color:#518534;
 }
-
+.action-elements:hover{
+  background-color:#212a3a;
+  color: #ffffff;}
+.action-elements:active{
+  background-color:#161d29;
+  color:#8b8e94;
+}
 .enter a:hover {
   color: #ee3643;
   background-color: #ffffff;
@@ -105,12 +112,12 @@ a {
   background-color: #ffffff;
 }
 
-.enter a:visited {
+.enter a:active {
   background-color: #ffffff;
   color: #c5c5c5;
 }
 
-.register a:visited {
+.register a:active {
   background-color: #ffffff;
   color: #c5c5c5;
 }
@@ -120,7 +127,7 @@ a {
 }
 
 .product a {
-  font-family: "PT Sans",Arial, sans-serif;
+  font-family: "Cuprum",Verdana, sans-serif;
   font-size: 18px;
   line-height: 20px;
 }
@@ -140,13 +147,13 @@ a {
 }
 
 .description {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Cuprum", sans-serif;
   font-size: 16px;
   line-height: 28px;
 }
 
 .description-bring, .shopping, .transport-companies, .perforator-information {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Cuprum", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
