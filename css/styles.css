@@ -183,4 +183,209 @@ a {
   color: #ffd180;
 }
 
+.top {
+  background-color: #32425c;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  min-height: 42px;
+  margin-bottom: 46px;
+}
 
+
+.main-header {
+  background-color: #f3f7f9;
+}
+
+.logo {
+  height: 47px;
+  width: 220px;
+}
+
+.main-navigation {
+  width: 940px;
+  background-color: #32425c;
+  margin-bottom: 60px;
+}
+
+.action-elements {
+  width: 150px;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.make-an-order {
+  width: 150px;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.search {
+  width: 287px;
+}
+
+.headline-score {
+  width: 196px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 24px;
+
+}
+
+
+.register a {
+  width: 150px;
+  background-color: #ffffff;
+  color: #000000;
+  display: block;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 21px;
+  line-height: 21px;
+  margin-left: 10px;
+
+}
+
+.user-navigation {
+  display: flex;
+
+}
+
+.enter a {
+  width: 121px;
+  background-color: #ffffff;
+  color: #000000;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 48px;
+  padding-right: 27px;
+  font-size: 21px;
+  line-height: 21px;
+  margin-left: 69px;;
+}
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.main-navigation {
+  margin: 0 auto;
+}
+
+.site-navigation a {
+  display: block;
+  padding-top: 22px;
+  padding-bottom: 26px;
+  padding-left: 26px;
+  padding-right: 26px;
+  vertical-align: middle;
+}
+
+
+.bottom {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.telephone-header {
+  display: block;
+  width: 270px;
+  border: 2px solid white;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  padding-left: 74px;
+  padding-right: 52px;
+  margin-bottom: 10px;
+}
+
+.header-contact {
+  margin-left: 71px;
+
+}
+
+.company {
+  display: flex;
+}
+
+.about-company {
+  margin-left: 130px;
+  width: 519px;
+
+}
+
+.contacts{
+  margin-left: 121px;
+}
+.pickup{
+  width: 179px;
+}
+.transport-companies{
+  margin-bottom: 37px;
+}
+.details{
+  display: block;
+  color: #ffffff;
+  background-color: #ee3643;
+  padding-right: 40px;
+  padding-left: 41px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  text-transform:uppercase;
+  width: 220px;
+  font-size: 14px;
+  margin-bottom: 86px;
+}
+.footer-top{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-footer-logo{
+  margin-left: 130px;
+}
+.footer-nav{
+  display: flex;
+  margin-left: 173px;
+}
+.footer-nav a{
+  display: block;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer-contact{
+
+}
