@@ -50,6 +50,7 @@ a {
   line-height: 23px;
   font-style: italic;
   color: #ee3643;
+  padding-left: 50px;
 }
 
 .telephone-header {
@@ -183,15 +184,19 @@ a {
   color: #ffd180;
 }
 
-.top {
+.top-header {
   background-color: #32425c;
   width: auto;
-  display: flex;
-  justify-content: center;
   min-height: 42px;
   margin-bottom: 46px;
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+}
 
 .main-header {
   background-color: #f3f7f9;
@@ -220,21 +225,16 @@ a {
   padding-top: 14px;
 }
 
-.search {
-  width: 287px;
-}
 
-.headline-score {
-  width: 196px;
-}
-
-.bottom {
-  display: flex;
-}
-
-.address {
+.header-contact {
   display: flex;
   flex-direction: column;
+  margin-left: 71px;
+}
+
+
+.address {
+
   font-size: 14px;
   line-height: 24px;
 
@@ -272,7 +272,6 @@ a {
   padding-right: 27px;
   font-size: 21px;
   line-height: 21px;
-  margin-left: 69px;;
 }
 
 
@@ -315,11 +314,6 @@ input[type="radio"].visually-hidden {
 }
 
 
-.bottom {
-  width: 940px;
-  margin: 0 auto;
-}
-
 .telephone-header {
   display: block;
   width: 270px;
@@ -331,10 +325,6 @@ input[type="radio"].visually-hidden {
   margin-bottom: 10px;
 }
 
-.header-contact {
-  margin-left: 71px;
-
-}
 
 .company {
   display: flex;
@@ -346,16 +336,19 @@ input[type="radio"].visually-hidden {
 
 }
 
-.contacts{
+.contacts {
   margin-left: 121px;
 }
-.pickup{
+
+.pickup {
   width: 179px;
 }
-.transport-companies{
+
+.transport-companies {
   margin-bottom: 37px;
 }
-.details{
+
+.details {
   display: block;
   color: #ffffff;
   background-color: #ee3643;
@@ -363,29 +356,34 @@ input[type="radio"].visually-hidden {
   padding-left: 41px;
   padding-top: 14px;
   padding-bottom: 12px;
-  text-transform:uppercase;
+  text-transform: uppercase;
   width: 220px;
   font-size: 14px;
   margin-bottom: 86px;
 }
-.footer-top{
-  display: flex;
-  flex-wrap: wrap;
+
+.footer-top {
+
 }
-.main-footer-logo{
+
+.main-footer-logo {
   margin-left: 130px;
 }
-.footer-nav{
+
+.footer-nav {
   display: flex;
   margin-left: 173px;
 }
-.footer-nav a{
+
+.footer-nav a {
   display: block;
   padding-top: 40px;
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.footer-contact{
-
+.enter-register {
+  padding-left: 71px;
 }
+
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="ru">
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
@@ -12,20 +12,24 @@
 <body>
 
 <header class="main-header">
-  <section class="top">
-    <a class="logo">
-      <img src="img/index-logo.png" width="220" height="47" alt="Логотип магазина «Техномарт»">
-    </a>
-    <form class="search" action="https://echo.htmlacademy.ru" method="get">
-      <input type="text" name="search">
-      <button type="submit">Искать:</button>
-    </form>
+  <section class="top-header">
+    <div class="container">
+      <a class="logo">
+        <img src="img/index-logo.png" width="220" height="47" alt="Логотип магазина «Техномарт»">
+      </a>
+      <form class="search" action="https://echo.htmlacademy.ru" method="get">
+        <input type="text" name="search">
+        <button type="submit">Искать:</button>
+      </form>
 
-    <a class="action-elements nav" href="/bookmark.html"> Закладки </a>
-    <a class="action-elements nav" href="/basket.html"> Корзина </a>
-    <a class="make-an-order nav" href="/make.html">Оформить заказ</a>
+      <a class="action-elements nav" href="/bookmark.html"> Закладки </a>
+      <a class="action-elements nav" href="/basket.html"> Корзина </a>
+      <a class="make-an-order nav" href="/make.html">Оформить заказ</a>
+    </div>
   </section>
-  <section class="bottom">
+
+  <section class="bottom-header">
+ <div class="container">
     <h1 class="headline-score">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
     <div class="header-contact">
       <p class="address"><a class="telephone-header" href="tel:+78125550555">+7(812)555-05-55</a>г.Санкт-Петербург,улица
@@ -38,7 +42,9 @@
         <li class="login-link register"><a href="#">Pегистрация</a></li>
       </ul>
     </div>
+    </div>
   </section>
+  <div class="container">
   <nav class="main-navigation nav">
     <ul class="site-navigation list">
       <li><a>Главная</a></li>
@@ -50,6 +56,7 @@
       <li><a href="contacts.html">Контакты</a></li>
     </ul>
   </nav>
+  </div>
 </header>
 <main class="main-content">
   <section class="sentence">
@@ -93,7 +100,7 @@
           <img src="img/product-4.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 9000»">
         </a>
 
-        <h3 class=product-item"">
+        <h3 class= "product-item">
 
           <a href="item.html">Перфоратор BOSCH BFG 9000</a>
         </h3>
@@ -249,7 +256,9 @@
   </section>
 </main>
 <footer class="main-footer">
+
   <div class="footer-top">
+     <div class="container">
     <a class="main-footer-logo">
       <img src="img/index-logo-footer.png" width="220" height="68" alt="Логотип магазина «Техномарт»">
     </a>
@@ -260,12 +269,15 @@
       <li><a href="#">Доставка</a></li>
       <li><a href="#">Контакты</a></li>
     </ul>
-    <div class="footer-contact">
+  </div>
+  </div>
+
+    <div class="footer-mid">
+      <div class="container">
       <p class="footer-address">
         г.Санкт-Петербург,улица Б.Конюшенная,д.19/8
       </p>
       <a href="tel:+78125550555" class="telephone-footer">+7(812)555-05-55</a>
-    </div>
     <ul class="footer-nav-offers list">
       <li><a href="#">Материалы</a></li>
       <li><a href="#">Техника</a></li>
@@ -273,7 +285,10 @@
       <li><a href="#">Спецпредложение</a></li>
     </ul>
   </div>
-  <div class="footer-mid">
+  </div>
+
+  <div class="footer-bottom">
+     <div class="container">
     <p class="copyrights">
       2010-2017 Компания "Техномарт"
       Все права защищены
@@ -299,6 +314,7 @@
       <a class="href" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank"
          aria-label="Интерактивные курсы на htmlacademy">htmlacademy.ru</a>
     </p>
+  </div>
   </div>
 </footer>
 <section class="modal modal-review">
