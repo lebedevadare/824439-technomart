@@ -38,6 +38,8 @@ a {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .main-navigation a {
@@ -49,8 +51,13 @@ a {
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
+  font-weight: 400;
   color: #ee3643;
-  padding-left: 50px;
+  margin: 0;
+}
+
+.bottom-header .container {
+  display: flex;
 }
 
 .telephone-header {
@@ -68,7 +75,7 @@ a {
 }
 
 .footer-mid {
-  background-color: #293449;
+  background-color: #32425c;
 }
 
 .action-elements:hover {
@@ -186,15 +193,16 @@ a {
 
 .top-header {
   background-color: #32425c;
-  width: auto;
   min-height: 42px;
-  margin-bottom: 46px;
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.top-header .container {
   display: flex;
 }
 
@@ -304,8 +312,12 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
 }
 
+.main-navigation .container {
+  display: flex;
+}
+
 .site-navigation a {
-  display: block;
+  display: inline-block;
   padding-top: 22px;
   padding-bottom: 26px;
   padding-left: 26px;
@@ -361,29 +373,37 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   margin-bottom: 86px;
 }
-
-.footer-top {
-
-}
-
-.main-footer-logo {
-  margin-left: 130px;
-}
-
-.footer-nav {
+.footer-top .container {
   display: flex;
-  margin-left: 173px;
 }
 
-.footer-nav a {
+.footer-address {
+  margin: 0;
+}
+.footer-nav, .list{
+  display: flex;
+}
+
+.footer-nav li {
+  margin-right: 60px;
+  margin-top: 42px;
+}
+
+.copyrights{
+  margin: 0;
+}
+
+.footer-bottom {
+  background-color: #293449;
+}
+
+.contacts-footer .container {
+  display: flex;
+}
+
+.user{
   display: block;
-  padding-top: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
-
-.enter-register {
-  padding-left: 71px;
+.breadcrumbs-list .container{
+  display: flex;
 }
-
-
