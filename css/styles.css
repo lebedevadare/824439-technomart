@@ -343,13 +343,8 @@ input[type="radio"].visually-hidden {
 }
 
 .about-company {
-  margin-left: 130px;
   width: 519px;
 
-}
-
-.contacts {
-  margin-left: 121px;
 }
 
 .pickup {
@@ -373,6 +368,7 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   margin-bottom: 86px;
 }
+
 .footer-top .container {
   display: flex;
 }
@@ -380,16 +376,16 @@ input[type="radio"].visually-hidden {
 .footer-address {
   margin: 0;
 }
-.footer-nav, .list{
+
+.footer-nav, .list {
   display: flex;
 }
 
 .footer-nav li {
   margin-right: 60px;
-  margin-top: 42px;
 }
 
-.copyrights{
+.copyrights {
   margin: 0;
 }
 
@@ -401,9 +397,86 @@ input[type="radio"].visually-hidden {
   display: flex;
 }
 
-.user{
+.user {
   display: block;
 }
-.breadcrumbs-list .container{
+
+.breadcrumbs-list .container {
   display: flex;
+}
+
+.company .container {
+  display: flex;
+}
+
+.company-shopping, .headline {
+  margin: 0;
+}
+
+.shopping, .content {
+  margin: 0;
+}
+
+.connections {
+  margin: 0;
+}
+
+.all-goods {
+  color: #ffffff;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 14px 55px;
+}
+
+.goods {
+  display: flex;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-email, .footer-contact {
+  margin: 0;
+}
+
+.main-footer-logo {
+  color: #ffffff;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 41px;
+  padding-right: 41px;
+}
+
+.footer-nav li:last-child {
+  margin-right: 0;
+}
+.catalog-list, .list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-perforators{
+  background-color: #f4f7f9;
+}
+.wrap .container{
+  display: flex;
+}
+.footer-mid .container{
+  display: flex;
+}
+.footer-bottom .container{
+  display: flex;
+}
+.footer-nav-offers li{
+  margin-right: 60px;
+}
+.footer-nav-offers li:last-child{
+  margin-right: 0;
 }
