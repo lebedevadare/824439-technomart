@@ -210,10 +210,6 @@ a {
   background-color: #f3f7f9;
 }
 
-.logo {
-  height: 47px;
-  width: 220px;
-}
 
 .main-navigation {
   width: 940px;
@@ -236,8 +232,7 @@ a {
 
 .header-contact {
   display: flex;
-  flex-direction: column;
-  margin-left: 71px;
+  margin-left: 31px;
 }
 
 
@@ -245,10 +240,9 @@ a {
 
   font-size: 14px;
   line-height: 24px;
-
 }
 
-
+.
 .register a {
   width: 150px;
   background-color: #ffffff;
@@ -303,8 +297,8 @@ input[type="radio"].visually-hidden {
 
 .site-navigation {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  width: 100%;
+  justify-content: center;
 
 }
 
@@ -316,13 +310,14 @@ input[type="radio"].visually-hidden {
   display: flex;
 }
 
-.site-navigation a {
-  display: inline-block;
-  padding-top: 22px;
-  padding-bottom: 26px;
-  padding-left: 26px;
-  padding-right: 26px;
-  vertical-align: middle;
+.site-navigation li {
+  margin-top: 22px;
+  margin-bottom: 26px;
+  margin-left: 60px;
+}
+
+.site-navigation li:first-child {
+  margin-left: 0px;
 }
 
 
@@ -334,7 +329,6 @@ input[type="radio"].visually-hidden {
   padding-bottom: 11px;
   padding-left: 74px;
   padding-right: 52px;
-  margin-bottom: 10px;
 }
 
 
@@ -427,7 +421,13 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
-  padding: 14px 55px;
+  text-align: center;
+  width: 253px;
+  margin-top: 25px;
+  margin-bottom: 26px;
+  margin-left: 663px;
+  margin-right: 24px;
+
 }
 
 .goods {
@@ -458,25 +458,301 @@ input[type="radio"].visually-hidden {
 .footer-nav li:last-child {
   margin-right: 0;
 }
-.catalog-list, .list{
+
+.about-perforators {
+  background-color: #f4f7f9;
+}
+
+.wrap .container {
+  display: flex;
+}
+
+.footer-mid .container {
+  display: flex;
+}
+
+.footer-bottom .container {
+  display: flex;
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 30px;
+}
+
+.footer-nav-offers li {
+  margin-right: 60px;
+}
+
+.footer-nav-offers li:last-child {
+  margin-right: 0;
+}
+
+.user-navigation {
+  display: flex;
+}
+
+.top-header {
+  margin-bottom: 46px;
+}
+
+.main-header {
+  height: 320px;
+}
+
+.address {
+  margin: 0;
+  width: 300px;
+}
+
+.enter-register {
+  margin-left: 69px;
+}
+
+.headline-score {
+  margin-left: 54px;
+}
+
+.user-navigation {
+  margin-bottom: 67px;
+}
+
+.catalog-item {
+  position: relative;
+  display: inline-block;
+  width: 218px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.catalog-item .flag {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 60px;
+  height: 60px;
+  text-indent: -1000px;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.catalog-item .flag-new {
+  background: url("/824439-technomart/img/new-flag.png") no-repeat 0 0;
+}
+
+.catalog-item .actions {
+  display: none;
+}
+
+.catalog-item .image {
+  width: 218px;
+  height: 168px;
+}
+
+.catalog-item .image img {
+  max-width: 100%;
+}
+
+.catalog-item .catalog-item-image {
+  min-height: 40px;
+  padding: 0 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.catalog-item .catalog-item-price {
+  min-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.catalog-list .price {
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  color: white;
+  background: #ee3643;
+  border-radius: 3px;
+}
+
+.product-item {
+  margin: 0;
+}
+
+.main-header {
+  margin-bottom: 59px;
+}
+
+.sentence-list {
   display: flex;
   flex-wrap: wrap;
 }
-.about-perforators{
-  background-color: #f4f7f9;
+
+.our-offers {
+  width: 300px;
+  height: 123px;
 }
-.wrap .container{
+
+.materials {
+  background: #ffbf47;
+}
+
+.tool {
+  background: #3bbce3;
+}
+
+.equipment {
+  background: #dc91d8;
+}
+
+.discount {
+  background: #8ed78f;
+}
+
+.home {
+  background: #ffc047;
+}
+
+
+.wrap-list {
+  margin-left: 20px;
+  position: relative;
+}
+
+.wrap-list:first-child {
+  margin-left: 0;
+}
+
+.wrap-list .inscription {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 135px;
+  height: 38px;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+wrap-list-men {
+  margin-left: 0;
+}
+
+.discount {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.goods {
+  background: #f9f5f0;
+  min-height: 89px;
+  margin-bottom: 21px;
   display: flex;
 }
-.footer-mid .container{
+
+.sentence {
+  margin-bottom: 53px;
+}
+
+.all-goods {
+  display: block;
+}
+
+.catalog-list {
+  margin-bottom: 21px;
+}
+
+.wrap-manufactures {
+  height: 89px;
+  background-color: #f9f5f0;
   display: flex;
+  margin-bottom: 20px;
 }
-.footer-bottom .container{
-  display: flex;
+
+.manufacturers-headline {
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #32425c;
+  margin-left: 26px;
 }
-.footer-nav-offers li{
-  margin-right: 60px;
+
+.all-manufacturers {
+  display: block;
+  margin-left: 273px;
+  margin-top: 25px;
 }
-.footer-nav-offers li:last-child{
-  margin-right: 0;
+
+.popular-manufacturers {
+  min-height: 415px;
 }
+
+.logo {
+  display: inline-block;
+  margin-left: 20px;
+  border: 1px solid #000000;
+  width: 220px;
+  height: 145px;
+}
+
+.popular-list .logo:first-child {
+  margin-left: 0;
+}
+
+.hitachi {
+  margin-left: 0;
+}
+
+.popular-list .logo {
+  margin-bottom: 20px;
+}
+
+.popular-list {
+  margin-bottom: 85px;
+}
+
+.services {
+  margin-bottom: 82px;
+}
+
+.pickup {
+  margin: 0;
+}
+
+.got-lost {
+  display: block;
+}
+
+.contacts {
+  margin-left: 121px;
+}
+
+.footer-nav {
+  margin-left: auto;
+  margin-top: 42px;
+}
+
+.footer-nav-offers {
+  margin-left: auto;
+}
+
+.contacts-footer {
+  margin-bottom: 53px;
+}
+
+.main-footer-logo {
+  margin-bottom: 32px;
+}
+
