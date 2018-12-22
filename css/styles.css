@@ -243,20 +243,7 @@ a {
 }
 
 .
-.register a {
-  width: 150px;
-  background-color: #ffffff;
-  color: #000000;
-  display: block;
-  padding-right: 25px;
-  padding-left: 25px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  font-size: 21px;
-  line-height: 21px;
-  margin-left: 10px;
 
-}
 
 .user-navigation {
   display: flex;
@@ -667,6 +654,7 @@ wrap-list-men {
 }
 
 .catalog-list {
+
   margin-bottom: 21px;
 }
 
@@ -755,4 +743,58 @@ wrap-list-men {
 .main-footer-logo {
   margin-bottom: 32px;
 }
+
+.register a {
+  width: 150px;
+  background-color: #ffffff;
+  color: #000000;
+  display: block;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 21px;
+  line-height: 21px;
+  margin-left: 10px;
+
+}
+.name {
+  display: block;
+  width: 300px;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  padding-left: 47px;
+  padding-right: 69px;
+  background: white;
+}
+.user{
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-list {
+  display: flex;
+
+}
+
+.catalog-list-catalog{
+  display: flex;
+  flex-wrap: wrap;
+}
+.catalog-list-catalog .price{
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  color: white;
+  background: #ee3643;
+  border-radius: 3px;
+}
+.product-item a{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
 
