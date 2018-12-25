@@ -298,8 +298,6 @@ input[type="radio"].visually-hidden {
 }
 
 .site-navigation li {
-  margin-top: 22px;
-  margin-bottom: 26px;
   margin-left: 60px;
 }
 
@@ -358,7 +356,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
 }
 
-.footer-nav, .list {
+.footer-nav{
   display: flex;
 }
 
@@ -575,15 +573,8 @@ input[type="radio"].visually-hidden {
   margin-bottom: 59px;
 }
 
-.sentence-list {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.our-offers {
-  width: 300px;
-  height: 123px;
-}
+
 
 .materials {
   background: #ffbf47;
@@ -607,35 +598,23 @@ input[type="radio"].visually-hidden {
 
 
 .wrap-list {
-  margin-left: 20px;
-  position: relative;
+ float: left;
+  width: 300px;
+  min-height: 123px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-.wrap-list:first-child {
-  margin-left: 0;
-}
 
-.wrap-list .inscription {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 135px;
-  height: 38px;
-  padding-top: 12px;
-  padding-bottom: 14px;
-  padding-left: 24px;
-  padding-right: 24px;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 10;
-}
-
-wrap-list-men {
-  margin-left: 0;
+.wrap-list-men {
+  float: left;
+  width: 620px;
+  min-height: 266px;
+  margin-right: 20px;
 }
 
 .discount {
-  margin: 0;
-  margin-left: 20px;
+  margin-right: 0;
 }
 
 .goods {
@@ -796,5 +775,18 @@ wrap-list-men {
   line-height: 20px;
   color: #000000;
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+.wrap-list:nth-child(3n){
+  margin-right: 0;
+}
 
+.navigation-list a{
+  display: inline-block;
+  padding-top: 22px;
+  padding-bottom: 26px;
+}
