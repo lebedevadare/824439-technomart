@@ -243,8 +243,6 @@ a {
 }
 
 .
-
-
 .user-navigation {
   display: flex;
 
@@ -356,7 +354,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
 }
 
-.footer-nav{
+.footer-nav {
   display: flex;
 }
 
@@ -574,8 +572,6 @@ input[type="radio"].visually-hidden {
 }
 
 
-
-
 .materials {
   background: #ffbf47;
 }
@@ -598,7 +594,7 @@ input[type="radio"].visually-hidden {
 
 
 .wrap-list {
- float: left;
+  float: left;
   width: 300px;
   min-height: 123px;
   margin-right: 20px;
@@ -737,6 +733,7 @@ input[type="radio"].visually-hidden {
   margin-left: 10px;
 
 }
+
 .name {
   display: block;
   width: 300px;
@@ -746,20 +743,23 @@ input[type="radio"].visually-hidden {
   padding-right: 69px;
   background: white;
 }
-.user{
+
+.user {
   display: flex;
   flex-wrap: wrap;
 }
+
 .user-list {
   display: flex;
 
 }
 
-.catalog-list-catalog{
+.catalog-list-catalog {
   display: flex;
   flex-wrap: wrap;
 }
-.catalog-list-catalog .price{
+
+.catalog-list-catalog .price {
   position: relative;
   width: 80px;
   margin: 10px auto;
@@ -769,24 +769,49 @@ input[type="radio"].visually-hidden {
   background: #ee3643;
   border-radius: 3px;
 }
-.product-item a{
+
+.product-item a {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
   color: #000000;
 }
+
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.wrap-list:nth-child(3n){
+.wrap-list:nth-child(3n) {
   margin-right: 0;
 }
 
-.navigation-list a{
+.navigation-list a {
   display: inline-block;
   padding-top: 22px;
   padding-bottom: 26px;
+}
+
+.our-offers {
+  margin-left: 23px;
+  margin-top: 26px;
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.inscription {
+  display:block;
+  width: 135px;
+  height: 38px;
+  color: white;
+  margin-left: 25px;
+  padding-top: 12px;
+text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 3px;
 }
