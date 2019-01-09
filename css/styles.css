@@ -298,10 +298,6 @@ input[type="radio"].visually-hidden {
   display: flex;
 }
 
-.site-navigation li {
-  margin-left: 60px;
-}
-
 .site-navigation li:first-child {
   margin-left: 0px;
 }
@@ -479,6 +475,7 @@ input[type="radio"].visually-hidden {
 .catalog-item {
   position: relative;
   width: 220px;
+  min-height: 318px;
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -515,11 +512,12 @@ input[type="radio"].visually-hidden {
   max-width: 100%;
 }
 
-.catalog-item .catalog-item-image {
-  min-height: 40px;
-  padding: 0 25px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+.catalog-item-image{
+  display: block;
+  position: relative;
+  height: 170px;
+  width: 218px;
+
 }
 
 .catalog-item .catalog-item-price {
@@ -528,10 +526,39 @@ input[type="radio"].visually-hidden {
   margin-bottom: 10px;
   color: #999;
 }
-
+.catalog-item .price:after{
+    content:"";
+    position:absolute;
+    top:0;
+    right:-20px;
+    width:0;
+    height:0;
+    border:20px solid white;
+    border-left-color:#ee3643;
+}
+.catalog-price{
+  position: relative;
+  width: 141px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  color: white;
+  background: #ee3643;
+  border-radius: 3px;
+}
+.catalog-item .catalog-price:after{
+  content:"";
+    position:absolute;
+    top:0;
+    right:-20px;
+    width:0;
+    height:0;
+    border:20px solid white;
+    border-left-color:#ee3643;
+}
 .catalog-list .price {
   position: relative;
-  width: 80px;
+  width: 141px;
   margin: 10px auto;
   margin-bottom: 20px;
   padding: 10px 30px;
@@ -750,10 +777,12 @@ input[type="radio"].visually-hidden {
   margin-left: 0;
 }
 
-.navigation-list a {
-  display: inline-block;
+.navigation a {
+  display: block;
   padding-top: 22px;
   padding-bottom: 26px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .our-offers {
@@ -866,4 +895,10 @@ input[type="radio"].visually-hidden {
   width: 300px;
   padding: 14px 59px 12px 63px;
   border-radius: 4px;
+}
+.product{
+  margin: 0;
+  position: absolute;
+   top: 50%;
+   transform: translate(-50%, -50%)
 }
