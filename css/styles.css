@@ -149,6 +149,9 @@ a {
 }
 
 .headline {
+  display: inline-block;
+  height: 21px;
+  width: 260px;
   font-size: 30px;
   line-height: 30px;
 }
@@ -317,10 +320,12 @@ input[type="radio"].visually-hidden {
 
 .company {
   display: flex;
+  margin-bottom: 86px;
 }
 
 .about-company {
   width: 519px;
+
 
 }
 
@@ -332,19 +337,6 @@ input[type="radio"].visually-hidden {
   margin-bottom: 37px;
 }
 
-.details {
-  display: block;
-  color: #ffffff;
-  background-color: #ee3643;
-  padding-right: 40px;
-  padding-left: 41px;
-  padding-top: 14px;
-  padding-bottom: 12px;
-  text-transform: uppercase;
-  width: 220px;
-  font-size: 14px;
-  margin-bottom: 86px;
-}
 
 .footer-top .container {
   display: flex;
@@ -398,20 +390,6 @@ input[type="radio"].visually-hidden {
   margin: 0;
 }
 
-.all-goods {
-  color: #ffffff;
-  background-color: #ee3643;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  width: 253px;
-  margin-top: 25px;
-  margin-bottom: 26px;
-  margin-left: 663px;
-  margin-right: 24px;
-
-}
 
 .goods {
   display: flex;
@@ -500,8 +478,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-item {
   position: relative;
-  display: inline-block;
-  width: 218px;
+  width: 220px;
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -597,21 +574,19 @@ input[type="radio"].visually-hidden {
   float: left;
   width: 300px;
   min-height: 123px;
-  margin-right: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 
-.wrap-list-men {
+.slider {
   float: left;
   width: 620px;
   min-height: 266px;
-  margin-right: 20px;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
-.discount {
-  margin-right: 0;
-}
 
 .goods {
   background: #f9f5f0;
@@ -624,50 +599,41 @@ input[type="radio"].visually-hidden {
   margin-bottom: 53px;
 }
 
-.all-goods {
-  display: block;
-}
-
-.catalog-list {
-
-  margin-bottom: 21px;
-}
 
 .wrap-manufactures {
   height: 89px;
   background-color: #f9f5f0;
-  display: flex;
   margin-bottom: 20px;
 }
 
 .manufacturers-headline {
+  display: inline-block;
+  height: 26px;
+  width: 364px;
   font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1;
-  letter-spacing: normal;
+  line-height: 30px;
   text-align: left;
   color: #32425c;
   margin-left: 26px;
 }
 
-.all-manufacturers {
-  display: block;
-  margin-left: 273px;
-  margin-top: 25px;
-}
 
 .popular-manufacturers {
   min-height: 415px;
 }
 
 .logo {
-  display: inline-block;
   margin-left: 20px;
-  border: 1px solid #000000;
+  border: 1px solid #eaeaea;
   width: 220px;
   height: 145px;
+}
+
+.logo a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .popular-list .logo:first-child {
@@ -694,9 +660,6 @@ input[type="radio"].visually-hidden {
   margin: 0;
 }
 
-.got-lost {
-  display: block;
-}
 
 .contacts {
   margin-left: 121px;
@@ -783,8 +746,8 @@ input[type="radio"].visually-hidden {
   clear: both;
 }
 
-.wrap-list:nth-child(3n) {
-  margin-right: 0;
+.materials {
+  margin-left: 0;
 }
 
 .navigation-list a {
@@ -803,15 +766,104 @@ input[type="radio"].visually-hidden {
 }
 
 .inscription {
-  display:block;
+  display: block;
   width: 135px;
   height: 38px;
   color: white;
   margin-left: 25px;
   padding-top: 12px;
-text-align: center;
+  text-align: center;
   background: rgba(0, 0, 0, 0.1);
   font-size: 14px;
   line-height: 18px;
   border-radius: 3px;
+}
+
+.picture {
+  display: block;
+}
+
+.home {
+  margin-bottom: 0;
+}
+
+.popular-goods {
+  margin-bottom: 21px;
+}
+
+.btn {
+  display: inline-block;
+  height: 38px;
+  background-color: #ee3643;
+  color: white;
+  line-height: 18px;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.slides {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.none {
+  display: none;
+}
+
+.catalog-list {
+  display: flex;
+}
+
+.popular-goods .catalog-item:last-child {
+  margin-right: 0;
+}
+
+.goods-header {
+  min-height: 89px;
+  background: #f9f5f0;
+  margin-bottom: 21px;
+}
+.popular-product{
+  color:#32425c;
+  text-align: left;
+  font-size: 30px;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 33px;
+  margin-bottom: 35px;
+}
+
+.popular{
+  width: 253px;
+  padding: 14px 55px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 4px;
+  margin-left: 373px;
+}
+.popular a{
+  text-align: center;
+}
+.manufactures{
+  display: inline-block;
+  width: 253px;
+  padding: 13px 70px 13px 69px;
+  margin-left: 273px;
+  border-radius: 4px;
+}
+.about{
+  width: 220px;
+  padding: 14px 40px 12px 41px;
+  border-radius: 4px;
+}
+.letter{
+  width: 300px;
+  padding: 14px 59px 12px 63px;
+  border-radius: 4px;
 }

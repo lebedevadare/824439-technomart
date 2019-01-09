@@ -43,6 +43,19 @@
       </div>
     </div>
   </section>
+   <nav class="main-navigation nav">
+    <div class="container">
+      <ul class="site-navigation list">
+        <li><a href="/index.html">Главная</a></li>
+        <li><a href="company.html">Компания</a></li>
+        <li><a href="сatalog.html">Каталог</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="sentence.html">Cпецпредложение</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
 
 
 </header>
@@ -51,52 +64,61 @@
     <div class="container">
       <h2 class="visually-hidden">Предложения</h2>
 
-        <ul class="sentence-list list clearfix">
+      <ul class="sentence-list list clearfix">
 
-          <li class="wrap-list materials ">
-            <p class="our-offers">Материалы</p>
+        <li class="wrap-list materials ">
+          <p class="our-offers">Материалы</p>
 
-            <a class="inscription">На любой вкус</a>
-          </li>
+          <a class="inscription">На любой вкус</a>
+        </li>
 
-          <li class="wrap-list tool">
-            <p class="our-offers ">Инструмент</p>
-            <a class="inscription">На все случаи</a>
-          </li>
-
-
-          <li class="wrap-list equipment">
-            <p class="our-offers ">Техника</p>
-            <a class="inscription">Для стройки</a>
-          </li>
+        <li class="wrap-list tool">
+          <p class="our-offers ">Инструмент</p>
+          <a class="inscription">На все случаи</a>
+        </li>
 
 
-          <li class="wrap-list-men">
-            <section class="slider">
-              <img src="img/men.jpg" width="620" height="266" alt="Mужчина с дрелью">
-              <!--кнопка-->
-            </section>
-          </li>
-
-          <li class="wrap-list discount">
-            <p class="our-offers">Скидка 50%</p>
-            <a class="inscription">На 350 товаров</a>
-          </li>
+        <li class="wrap-list equipment">
+          <p class="our-offers ">Техника</p>
+          <a class="inscription">Для стройки</a>
+        </li>
 
 
-          <li class="wrap-list home ">
-            <p class="our-offers ">Доставка</p>
-            <a class="inscription">Бесплатно</a>
-          </li>
-        </ul>
+        <li class="wrap-list slider">
+          <div class="slider-wrapper">
+            <div class="slides active">
+              <img class="picture" src="img/men.jpg" width="620" height="266" alt="Mужчина с дрелью">
+              <button class="previous"></button>
+              <button class="next"></button>
+            </div>
+            <div class="slides none">
+              <img class="picture" src="img/men-2.jpg" width="620" height="266" alt="Мужчина с дрелью">
+              <button class="previons"></button>
+              <button class="next"></button>
+              <a href="#" class="btn">Открыть каталог</a>
+            </div>
+          </div>
+        </li>
 
-      </div>
+        <li class="wrap-list discount">
+          <p class="our-offers">Скидка 50%</p>
+          <a class="inscription">На 350 товаров</a>
+        </li>
+
+
+        <li class="wrap-list home ">
+          <p class="our-offers ">Доставка</p>
+          <a class="inscription">Бесплатно</a>
+        </li>
+      </ul>
+
+    </div>
   </section>
   <section class="popular-goods">
     <div class="container">
-      <div class="goods">
-        <h2 class="popular-product headline ">Популярные товары</h2>
-        <a class="all-goods" href="/catalog.html">Все популярные товары</a>
+      <div class="goods-header">
+        <h2 class="popular-product headline ">Популярные товары:</h2>
+        <a class="btn popular" href="/catalog.html">Все популярные товары</a>
       </div>
       <h2 class="visually-hidden">Список перфораторов</h2>
 
@@ -108,7 +130,7 @@
             <a href="#" class="bookmark">В закладки</a>
           </div>
           <a class="catalog-item-image" href="item.html">
-            <img src="img/product-4.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 9000»">
+            <img src="img/product-1.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 9000»">
           </a>
 
           <h3 class="product-item">
@@ -184,8 +206,8 @@
   <section class="popular-manufacturers">
     <div class="container">
       <div class="wrap-manufactures">
-        <h2 class="manufacturers-headline"> Популярные производители</h2>
-        <a class="all-manufacturers">Все производители</a>
+        <h2 class="manufacturers-headline"> Популярные производители:</h2>
+        <a class="btn manufactures">Все производители</a>
       </div>
       <ul class="popular-list list">
         <li class="logo"><a href="https://www.bosch.ru/"><img src="img/bosch.png" width="126" height="37"
@@ -268,7 +290,7 @@
           <li>Автотрейдинг</li>
           <li>ЖерДорЭкспедиция</li>
         </ul>
-        <a class="details" href="#">Подробнее о компании</a>
+        <a class="btn about" href="#">Подробнее о компании</a>
 
       </section>
       <section class="contacts">
@@ -278,7 +300,7 @@
         </p>
 
         <img src="img/map.jpg" width="300" height="158" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
-        <a class="got-lost" href="#">Заблудились?Напишите нам</a>
+        <a class="btn letter" href="#">Заблудились?Напишите нам</a>
       </section>
     </div>
   </section>
@@ -367,7 +389,7 @@
       <textarea name="commtnts" id="user-review" placeholder="В свободной форме"
       ></textarea>
     </p>
-    <button class="button-review" type="submit">Отправить</button>
+    <button class="btn" type="submit">Отправить</button>
   </form>
 </section>
 <section class="modal modal-map">
