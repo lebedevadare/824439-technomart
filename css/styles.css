@@ -244,7 +244,7 @@ label .search-label {
   font-size: 30px;
   line-height: 30px;
   margin-top: 68px;
-  margin-bottom: ;
+  margin-bottom: 46px;
 }
 
 .tabs {
@@ -261,6 +261,10 @@ label .search-label {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
+}
+
+.shopping {
+  padding-bottom: 24px;
 }
 
 .main-footer {
@@ -393,6 +397,7 @@ input[type="radio"].visually-hidden {
 
 .about-company {
   width: 519px;
+  box-sizing: border-box;
 
 
 }
@@ -401,9 +406,6 @@ input[type="radio"].visually-hidden {
   width: 179px;
 }
 
-.transport-companies {
-  margin-bottom: 37px;
-}
 
 
 .footer-top .container {
@@ -470,15 +472,18 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer-logo {
-  color: #ffffff;
-  background-color: #ee3643;
-  text-transform: uppercase;
-  font-size: 30px;
-  line-height: 30px;
-  padding-top: 20px;
-  padding-bottom: 25px;
-  padding-left: 41px;
-  padding-right: 41px;
+  display: inline-block;
+    padding: 18px 41px 15px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Cuprum","Arial",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee3643;
+    border-bottom: 5px solid #b52933;
 }
 
 .footer-nav li:last-child {
@@ -760,9 +765,7 @@ input[type="radio"].visually-hidden {
 }
 
 
-.contacts {
-  margin-left: 121px;
-}
+
 
 .footer-nav {
   margin-left: auto;
@@ -770,6 +773,7 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-nav-offers {
+  display: flex;
   margin-left: auto;
 }
 
@@ -1284,4 +1288,74 @@ input[type=search]:hover {
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
+}
+
+.company-shopping {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 29px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.list-of-companies, .list-of-companies li {
+  position: relative;
+  margin-left: 11px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.list-of-companies li::before {
+  content: '';
+  position: absolute;
+  left: -36px;
+  top: 19px;
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: #fb565a;
+}
+
+.list-of-companies {
+  margin: 11px 0 34px 36px;
+}
+
+.connections {
+  margin-bottom: 29px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 30px;
+  color: #000;
+  font-family: "Cuprum", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.pickup {
+  font-size: 13px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #000;
+}
+.maps{
+  margin-bottom: 40px;
+}
+.contacts{
+  width: 441px;
+  padding-left: 121px;
+}
+.transport{
+  margin: 0;
+  padding: 0;
+
 }
