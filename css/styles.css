@@ -267,9 +267,11 @@ a {
 .main-navigation a:hover {
   background-color: #293449;
 }
-.address{
+
+.address {
   position: relative;
 }
+
 .telephone-header::before {
   content: "";
   width: 19px;
@@ -1654,75 +1656,77 @@ input[type=text] {
 }
 
 .user-profile {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-    min-width: 300px;
+  min-width: 300px;
 
-    margin: 0;
-    padding: 0;
-    margin-bottom: 7px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 7px;
 
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .user-profile .user-name {
-    position: relative;
+  position: relative;
 
-    display: inline-block;
+  display: inline-block;
 
-    padding-top: 12px;
-    padding-right: 6px;
-    padding-bottom: 12px;
-    padding-left: 32px;
+  padding-top: 12px;
+  padding-right: 6px;
+  padding-bottom: 12px;
+  padding-left: 32px;
 }
 
 .user-profile .user-name::before {
-    content: "";
+  content: "";
 
-    position: absolute;
-    top: 13px;
-    left: -2px;
+  position: absolute;
+  top: 13px;
+  left: -2px;
 
-    width: 20px;
-    height: 18px;
+  width: 20px;
+  height: 18px;
 
-    background-image: url("/824439-technomart/img/icon-user.svg");
-    background-position: 0 0;
-    background-repeat: no-repeat;
+  background-image: url("/824439-technomart/img/icon-user.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 .user-profile a:active {
-    color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
-.exit-profile {
-    display: inline-block;
 
-    position: relative;
+.exit-profile {
+  display: inline-block;
+
+  position: relative;
 }
 
 .exit-profile .icon-logout {
-    width: 21px;
-    height: 17px;
+  width: 21px;
+  height: 17px;
 
-    padding-top: 4px;
-    margin-right: -7px;
+  padding-top: 4px;
+  margin-right: -7px;
 
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 .user-name:hover::before,
 .icon-logout:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .user-name:active::before,
 .icon-logout:active {
-    opacity: 0.3;
+  opacity: 0.3;
 }
+
 .enter-register ul {
   display: flex;
   margin: 0;
@@ -1731,328 +1735,476 @@ input[type=text] {
 }
 
 .user-profile-menu {
-    display: flex;
+  display: flex;
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    list-style: none;
+  list-style: none;
 }
 
 .user-profile-menu a {
-    color: #32425c;
+  color: #32425c;
 
-    font-size: 16px;
-    line-height: 18px;
+  font-size: 16px;
+  line-height: 18px;
 
-    text-decoration: underline;
+  text-decoration: underline;
 
-    background-color: #f2f6f8;
+  background-color: #f2f6f8;
 }
 
 .user-profile-menu a:first-child {
-    position: relative;
+  position: relative;
 
-    margin-left: 18px;
-    margin-right: 14px;
+  margin-left: 18px;
+  margin-right: 14px;
 }
 
 .my-orders::after {
-    content: "";
+  content: "";
 
-    position: absolute;
-    top: 8px;
-    right: -19px;
+  position: absolute;
+  top: 8px;
+  right: -19px;
 
-    width: 0;
-    height: 0;
+  width: 0;
+  height: 0;
 
-    border: 2px solid #32425c;
-    border-radius: 50%;
+  border: 2px solid #32425c;
+  border-radius: 50%;
 
 }
 
 .user-profile-menu a:hover {
-    color: #ee3643;
+  color: #ee3643;
 }
 
 .user-profile-menu a:active {
-    color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
+
 .search-filter .filter-by-brand {
-    margin-bottom: 19px;
+  margin-bottom: 19px;
 
-    border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .filter-by-brand legend {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
+
 .filter ul {
-    list-style: none;
+  list-style: none;
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-.filter .filter-by-brand {
-    margin-bottom: 19px;
 
-    border-bottom: 1px solid #e5e5e5;
+.filter .filter-by-brand {
+  margin-bottom: 19px;
+
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .filter-by-brand legend {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .filter-option {
-    padding-left: 34px;
-    margin-bottom: 20px;
+  padding-left: 34px;
+  margin-bottom: 20px;
 }
 
 .filter-option label {
-    position: relative;
+  position: relative;
 
-    display: block;
+  display: block;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .filter-by-power legend {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
-.filter-power li{
-    margin-bottom: 20px;
+.filter-power li {
+  margin-bottom: 20px;
 }
 
 .filter-brands label,
 .filter-power label {
-    font-size: 15px;
-    line-height: 20px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .filter-input-checkbox + label::before {
-    content: "";
+  content: "";
 
-    position: absolute;
-    top: -1px;
-    left: -34px;
+  position: absolute;
+  top: -1px;
+  left: -34px;
 
-    width: 23px;
-    height: 23px;
+  width: 23px;
+  height: 23px;
 
-    background-image: url("/824439-technomart/img/checkbox-off.svg");
-    background-position: 0 0;
-    background-repeat:no-repeat;
+  background-image: url("/824439-technomart/img/checkbox-off.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .filter-input-checkbox:checked + label::before {
-    content: "";
+  content: "";
 
-    position: absolute;
-    top: -1px;
-    left: -34px;
+  position: absolute;
+  top: -1px;
+  left: -34px;
 
-    width: 27px;
-    height: 23px;
+  width: 27px;
+  height: 23px;
 
-    background-image: url("/824439-technomart/img/checkbox-on.svg");
-    background-position: 0 0;
-    background-repeat: no-repeat;
+  background-image: url("/824439-technomart/img/checkbox-on.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 
 }
 
 .filter-input-checkbox:hover + label::before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .filter-input-checkbox:disabled + label::before {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 .filter-input-radio + label::before {
-    content: "";
+  content: "";
 
-    position: absolute;
-    top: -3px;
-    left: -35px;
+  position: absolute;
+  top: -3px;
+  left: -35px;
 
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 
-    background-image: url("/824439-technomart/img/radio-off.svg");
-    background-position: 0 0;
-    background-repeat:no-repeat;
+  background-image: url("/824439-technomart/img/radio-off.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .filter-input-radio:checked + label::before {
-    content: "";
+  content: "";
 
-    position: absolute;
-    top: -3px;
-    left: -35px;
+  position: absolute;
+  top: -3px;
+  left: -35px;
 
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 
-    background-image: url("/824439-technomart/img/radio-on.svg");
-    background-position: 0 0;
-    background-repeat:no-repeat;
+  background-image: url("/824439-technomart/img/radio-on.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .filter-input-radio:hover + label::before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .filter-input-radio:disabled + label::before {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 .filter-input:disabled + label {
-    color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .search-filter .filter-by-power {
-    margin-bottom: 58px;
+  margin-bottom: 58px;
 }
 
 .filter-show-button {
-    margin: 0;
-    padding-top: 10px;
-    padding-right: 39px;
-    padding-bottom: 8px;
-    padding-left: 38px;
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 39px;
+  padding-bottom: 8px;
+  padding-left: 38px;
 
 
-    font-size: 13px;
-    line-height: 18px;
+  font-size: 13px;
+  line-height: 18px;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    border: 1px solid #e5e5e5;
-    border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
 }
+
 .filter fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
+
 .filter-brands label, .filter-power label {
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
 }
+
 .catalog-sorting {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    margin-bottom: 20px;
-    margin-left: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 
-    border-radius: 2px;
+  border-radius: 2px;
 
-    background-color: #f7f3ec;
+  background-color: #f7f3ec;
 }
 
 .catalog-sorting h2 {
-    margin: 0;
-    margin-right: 140px;
-    padding: 0;
-    padding-top: 11px;
-    padding-bottom: 9px;
-    padding-left: 19px;
+  margin: 0;
+  margin-right: 140px;
+  padding: 0;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  padding-left: 19px;
 
 
-    font-family: "PT Sans", Arial, sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 18px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .catalog-sorting p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    font-family: "PT Sans", Arial, sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 18px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 
-    border-bottom: 1px dotted #ee3643;
+  border-bottom: 1px dotted #ee3643;
 }
 
 .catalog-sorting .sort-by-price {
-    margin-right: 71px;
+  margin-right: 71px;
 }
 
 .catalog-sorting .sort-current {
-    color: #ee3643;
+  color: #ee3643;
 
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .catalog-sorting .sort-by-price:hover,
 .catalog-sorting .sort-by-type:hover,
 .catalog-sorting .sort-by-functions:hover {
-    color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
 
-    border-bottom-style: solid;
+  border-bottom-style: solid;
 }
 
 .catalog-sorting .sort-current:hover {
-    color: #ee3643;
+  color: #ee3643;
 
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .catalog-sorting .sort-by-price:active,
 .catalog-sorting .sort-by-type:active,
 .catalog-sorting .sort-by-functions:active {
-    color: #ee3643;
+  color: #ee3643;
 
-    border-bottom: none;
+  border-bottom: none;
 }
+
 .catalog-sorting .sort-by-type {
-    margin-right: 64px;
+  margin-right: 64px;
 }
 
 .catalog-sorting .sort-by-functions {
-    margin-right: 48px;
+  margin-right: 48px;
 }
 
 .catalog-sorting button {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    border: none;
+  border: none;
 
-    background-color: transparent;
+  background-color: transparent;
 }
+
 .sort-up polygon,
 .sort-down polyline {
-    fill: rgba(0, 0, 0, 0.3);
+  fill: rgba(0, 0, 0, 0.3);
 }
 
 .sort-up polygon:hover,
 .sort-down polyline:hover {
-    fill: rgba(0, 0, 0, 1);
+  fill: rgba(0, 0, 0, 1);
 }
 
 .sort-up polygon:active,
 .sort-down polyline:active {
-    fill: #ee3643;
+  fill: #ee3643;
 }
 
 .catalog-sorting .sort-down {
-    margin-left: 20px;
+  margin-left: 20px;
+}
+
+.catalog-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 33px;
+  margin-left: 19px;
+  padding: 0;
+  list-style: none;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.product-4 {
+  margin-right: 0;
+}
+
+.pagination-list {
+  display: flex;
+
+  margin: 0;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.pagination-item {
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-right: 14px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+
+  text-transform: uppercase;
+
+  color: #000000;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+.pagination-item:last-child {
+  padding-top: 9px;
+  padding-right: 30px;
+  padding-bottom: 1px;
+  padding-left: 31px;
+}
+
+.pagination-item-current {
+  color: #ffffff;
+
+  border: 1px solid #ee3643;
+
+  background-color: #ee3643;
+}
+
+.information-hidden {
+  margin: 0;
+  padding-top: 65px;
+  padding-right: 1px;
+  padding-bottom: 26px;
+  padding-left: 1px;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.perforator-information {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 68px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+.bottom-footer-layout {
+  width: 100%;
+  background-color: #293449;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #293449;
+}
+.bottom-footer-left {
+    margin-right: 40px;
+}
+
+.bottom-footer-left p {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+}
+.bottom-footer-center ul {
+  list-style: none;
+}
+.social-items {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.bottom-footer-right {
+  display: flex;
+  padding-right: 15px;
+  font-size: 16px;
+  line-height: 18px;
+}
+.bottom-footer-right p:first-child {
+    margin-right: 51px;
+}
+.bottom-footer-right p {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 18px;
+}
+.bottom-footer-right a {
+  color: #ffd180;
+}
+.social-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41px;
+  height: 41px;
+  background-color: #212a3a;
+  border-radius: 50%;
 }
