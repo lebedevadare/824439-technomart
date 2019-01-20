@@ -13,19 +13,27 @@
 
 <header class="main-header">
   <div class="header-up">
-    <div class="container clearfix">
-      <div class="logotip">
-        <h1 class="technomart"><a href="index.html">Техномарт</a></h1>
-      </div>
-      <div class="header-wrapper clearfix">
-        <div class="search">
-          <form class="search" action="https://echo.htmlacademy.ru" method="get">
-            <input type="search" name="search" id="search" placeholder="Поиск:">
-            <label class="search-label" for="search"></label>
-          </form>
+    <div class="container">
+      <div class="top-header-left">
+
+        <div class="logotip">
+          <h1 class="technomart"><a href="index.html">Техномарт</a></h1>
         </div>
-        <a class="bookmark" href="/bookmark.html"> Закладки </a>
-        <a class="basket" href="/basket.html"> Корзина </a>
+        <form class="search-form" action="#" method="get">
+          <label class="search-area-label" for="search" aria-label="Поиск на сайте">
+            <svg class="search-icon" enable-background="new 0 0 17 17" height="17" viewBox="0 0 17 17" width="17"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m17 15.586-3.542-3.542c.963-1.262 1.542-2.834 1.542-4.544 0-4.142-3.357-7.5-7.5-7.5-4.142 0-7.5 3.358-7.5 7.5 0 4.143 3.358 7.5 7.5 7.5 1.71 0 3.282-.579 4.544-1.542l3.542 3.542zm-15-8.086c0-3.033 2.467-5.5 5.5-5.5 3.032 0 5.5 2.467 5.5 5.5 0 3.032-2.468 5.5-5.5 5.5-3.033 0-5.5-2.468-5.5-5.5z"
+                fill="#ffffff"/>
+            </svg>
+          </label>
+          <input class="search-area-field" type="search" id="search" name="search" placeholder="Поиск:">
+        </form>
+      </div>
+      <div class="top-header-right">
+        <a class="bookmark" href="/bookmark.html"> Закладки:0 </a>
+        <a class="basket" href="/basket.html"> Корзина:0 </a>
         <a class="ordering" href="/make.html">Оформить заказ</a>
       </div>
     </div>
@@ -40,7 +48,7 @@
       </div>
       <div class="enter-register">
         <ul class="user-navigation list">
-          <li class="login-link enter"><a href="#">Войти</a></li>
+          <li class="login-link enter"><a class="login-icon" href="#">Войти</a></li>
           <li class="login-link register"><a href="#">Pегистрация</a></li>
         </ul>
       </div>
@@ -99,27 +107,33 @@
 
         <li class="wrap-list slider">
           <div class="slider-wrapper">
-            <div class="slides active">
+            <div class="slide-1 active">
               <img class="picture" src="img/men.jpg" width="620" height="266" alt="Mужчина с дрелью">
-              <input type="radio" id="btn-1" name="toggle" checked>
-              <input type="radio" id="btn-2" name="toggle">
+              <div class="slide-text">
+                <h2 class="slide-title">Дрели</h2>
+                <span>Соседям на радость</span>
+                <a href="#" class="btn">Открыть каталог</a>
+              </div>
+            </div>
+            <div class="slide-2 none">
+              <img class="picture" src="img/men-2.jpg" width="620" height="266" alt="Мужчина с дрелью">
+              <div class="slide-text">
+                <h2 class="slide-title">Перфораторы</h2>
+                <span>Настоящие мужские игрушки</span>
+              </div>
             </div>
             <div class="slider-controls">
-              <label for="btn-1"></label>
-              <label for="btn-2"></label>
+
             </div>
-            <label class="arrow-left" for="btn-1"></label>
-            <label class="arrow-right" for="btn-2"></label>
+
           </div>
           <div class="slide-text">
             <h2 class="slide-title">Дрели</h2>
             <span>Соседям на радость</span>
             <a href="#" class="btn">Открыть каталог</a>
           </div>
-          <div class="slides none">
+          <div class="slide none">
             <img class="picture" src="img/men-2.jpg" width="620" height="266" alt="Мужчина с дрелью">
-            <button class="previons"></button>
-            <button class="next"></button>
 
           </div>
         </li>
@@ -299,7 +313,7 @@
           строительсьва не оставит равнодушным любителей сэкономить на гастарбайтарах.
         </p>
         <p class="transport-companies content">Мы можем доставить Ваш товар в самые отдаленные точки России!</p>
-         <p class="transport content"> Техномарт работает со многими транспортными компаниями:
+        <p class="transport content"> Техномарт работает со многими транспортными компаниями:
         </p>
 
         <ul class="list-of-companies list">
@@ -316,7 +330,8 @@
           заехав в наш офис:
         </p>
 
-        <img class="maps" src="img/map.jpg" width="300" height="158" alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
+        <img class="maps" src="img/map.jpg" width="300" height="158"
+             alt="Адрес офиса:г.Санкт-Петербург,ул.Большая Конюшенная,19/8">
         <a class="btn letter" href="#">Заблудились?Напишите нам</a>
       </section>
     </div>
