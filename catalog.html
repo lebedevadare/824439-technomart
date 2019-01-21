@@ -220,7 +220,10 @@
             <div class="catalog-item-price">
               <s>32500P.</s></div>
             <div class="prices"> 22500P</div>
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
           </li>
           <li class="catalog-item">
             <div class="actions">
@@ -239,7 +242,10 @@
               <s>22500P.</s></div>
             <div class="prices"> 15500P.</div>
 
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
           </li>
           <li class="catalog-item product-4">
             <div class="flag flag-new">новинка</div>
@@ -258,7 +264,10 @@
             <div class="catalog-price none-discount">
               12500P.
             </div>
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
           </li>
           <li class="catalog-item">
             <div class="actions">
@@ -276,7 +285,10 @@
             <div class="catalog-item-price">
               <s>32500P.</s></div>
             <div class="prices"> 22500P</div>
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
           </li>
           <li class="catalog-item">
             <div class="actions">
@@ -294,7 +306,10 @@
             <div class="catalog-item-price">
               <s>22500P.</s></div>
             <div class="prices"> 15500P.</div>
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
 
           </li>
           <li class="catalog-item product-4">
@@ -314,7 +329,10 @@
             <div class="catalog-price none-discount">
               12500P.
             </div>
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
           </li>
           <li class="catalog-item">
             <div class="actions">
@@ -332,7 +350,10 @@
             <div class="catalog-item-price">
               <s>32500P.</s></div>
             <div class="prices"> 22500P</div>
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
           </li>
           <li class="catalog-item">
             <div class="actions">
@@ -351,7 +372,10 @@
               <s>22500P.</s></div>
             <div class="prices"> 15500P.</div>
 
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
           </li>
           <li class="catalog-item product-4">
             <div class="flag flag-new">новинка</div>
@@ -370,7 +394,10 @@
             <div class="catalog-price none-discount">
               12500P.
             </div>
-
+            <div class="chosen-product">
+              <a class="buy-button" href="#">Купить</a>
+              <a class="bookmark-button" href="#">В закладки</a>
+            </div>
           </li>
         </ul>
 
@@ -506,16 +533,28 @@
     </div>
   </div>
 </footer>
-<section class="modal modal-basket">
-  <button class="modal-close" type="button">
-    Закрыть
-  </button>
-  <p>Товар добавлен в корзину</p>
-  <form class="basket" action="https://echo.htmlacademy.ru" method="get">
-    <input type="submit" value="Оформить заказ" name="buy">
-    <input type="submit" value="Продолжить покупки">
-  </form>
 
+
+<section class="modal modal-cart">
+  <button class="close-cart">
+    <svg enable-background="new 0 0 21 21" height="21" viewBox="0 0 21 21" width="21"
+         xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="m13.273 10.5 7.422-7.422c.389-.389.389-1.025 0-1.414l-1.359-1.359c-.389-.389-1.025-.389-1.414 0l-7.422 7.422-7.422-7.422c-.389-.389-1.025-.389-1.414 0l-1.359 1.359c-.389.389-.389 1.025 0 1.414l7.422 7.422-7.421 7.422c-.389.389-.389 1.025 0 1.414l1.359 1.359c.389.389 1.025.389 1.414 0l7.422-7.422 7.422 7.422c.389.389 1.025.389 1.414 0l1.359-1.359c.389-.389.389-1.025 0-1.414z"
+        fill="#ee3643"/>
+    </svg>
+  </button>
+  <div class="modal-container">
+    <h2>Товар добавлен в корзину!</h2>
+  </div>
+  <div class="modal-cart-bottom">
+    <div class="modal-container">
+      <div class="modal-cart-buttons">
+        <a class="button checkout-button" href="#">Оформить заказ</a>
+        <a class="button shopping-button" href="#">Продолжить покупки</a>
+      </div>
+    </div>
+  </div>
 </section>
 </body>
 </html>
